@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Contato
+permalink: /contato/
 ---
 
  VOCE ESTA EM CONTATO
