@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body onload="onresize()">
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    <script src="script/script.js" ></script>
+
+  </body>
+</html>
