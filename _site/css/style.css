@@ -120,6 +120,95 @@
 	background-color: #444444;
 }
 
+.texto-titulo-perfil {
+	margin: 0 0 30px 0;
+	text-align: left;
+	font-size: 26px;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+.separador-titulo-perfil {
+	margin: -30px 0 30px 0;
+	width: 850px;
+	height: 2px;
+	background-color: #444444;
+}
+
+.numero-crp-perfil {
+	margin: -29px 0 30px 0px;
+}
+
+.paragrafo-perfil {
+	display: flex;    
+}
+
+.paragrafo-perfil p {
+	text-align: justify;
+	padding: 0 0 0 0;
+	line-height: 1.5;
+	font-size: 20px;
+	font-family: lora;	
+	color: #444444;	    
+}
+
+.home-perfil {
+	width: 35%;
+	margin: 100px 0 100px 220px;
+}
+
+.texto-home-perfil {
+	text-align: left;
+}
+
+.img-perfil {
+	width: 250px;
+	height: 250px;
+	margin: -200px 0 0 600px
+}
+
+.texto-contato-container {
+	margin: 100px 0 0 225px;
+}
+
+.texto-titulo-contato {
+	text-align: left;
+	font-size: 26px;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+.separador-titulo-contato {
+	width: 850px;
+	height: 2px;
+	background-color: #444444;
+}
+
+.contato-email {
+	color: #333333; 
+	font-family: sans-serif;
+	font-size: 23px;
+	margin: 0 0 30px 0;
+}
+
+.lbl-email {
+	color: #444444;
+	margin: 50px 0px -24px 40px;
+}
+
+.lbl-telefone {
+	color: #333333;
+	margin: -25px 0 0 35px;
+}
+
+.contato-tel {
+	color: #333333; 
+	font-family: sans-serif;
+	font-size: 23px;
+	margin: 0 0 30px 0;
+}
+
+
 /*IPHONE 6*/
 @media screen and  (max-width: 50em) {
 	.site-header {
@@ -135,6 +224,33 @@
 		background-color: #333333;
 	}
 
+
+	.crp-logo {
+		display: none;
+	}
+
+	.lbl-lnks-footer {
+		color: #ffffff;
+		margin: 0 0 -15px 50px;
+		font-size: 12px;
+	}
+
+	.lbl-name-footer {
+		color: #fff;
+		margin: 0px 0 0 50px;
+	} 
+
+	.lbl-email-footer {
+		color: #521a7f;
+	}
+
+	.link-relacionado {
+		display: flex;
+		margin: 0px 0px 0px 50px;
+		padding: 2px 0px 0px 0px;
+		text-decoration: none;
+		font-size: 10px;
+	}
 
 	.img-logo {
 		margin: 0 0 0 -96px;

@@ -1,2 +1,2 @@
 # liegetoledopsiconline.github.io
-SIte oficial de Liege Toledo regulamento pelo CFP
+Site oficial de Liege Toledo Psicologia Online regulamentado pelo CFP (Conselho Federal de Psicologia)
