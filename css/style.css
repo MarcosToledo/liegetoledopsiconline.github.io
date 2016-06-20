@@ -5,16 +5,24 @@
 	box-sizing: border-box;
 }
 
+.header-container {
+	width: 100%;
+}
+
+.footer-container {
+	width: 100%
+}
+
 .site-header {
 	z-index: 1000;
-	width: 100%;
+	width: 99.9%;
 	height: 200px;
 	background-color: #20BEED;
 	box-shadow: 0 0 5px 0;
 }
 
 .site-footer {
-	width: 100%;
+	width: 99.9%;
 	height: 200px;
 	background-color: #111111;
 }
@@ -38,10 +46,11 @@
 }
 
 .link-relacionado {
-	display: -webkit-box;
+	display: flex;
 	margin: 0px 0 0 220px;
 	padding: 5px 0 0 0;
 	text-decoration: none;
+	color: #8a2be2;
 }
 
 .link-relacionado a:hover {
@@ -54,8 +63,8 @@
 }
 
 .separador-layout {
-	width: 1066px;
-	height: 3px;
+	width: 79%;
+	height: 2px;
 	background-color: #ffffff;
 	margin: -119px 0 0 285px;
 }
@@ -115,7 +124,7 @@
 
 .separador-titulo {
 	margin: 0 0 0 0;
-	width: 822px;
+	width: 100%;
 	height: 2px;
 	background-color: #444444;
 }
@@ -169,6 +178,7 @@
 
 .texto-contato-container {
 	margin: 100px 0 0 225px;
+	padding: 0 0 70px 0;
 }
 
 .texto-titulo-contato {
@@ -334,4 +344,89 @@
 		background-color: #444444;
 	}
 
+	.texto-titulo-perfil {
+	    margin: 0 0 30px 0;
+	    text-align: left;
+	    font-size: 26px;
+	    font-family: sans-serif;
+	    color: #333333;
+	}
+
+	.separador-titulo-perfil {
+    margin: -30px 0 30px 0;
+    width: 280px;
+    height: 2px;
+    background-color: #444444;
+	}
+
+	.paragrafo-perfil p {
+    text-align: justify;
+    padding: 0 0 0 0;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: lora;
+    color: #444444;
+	}
+
+	.home-perfil {
+    width: 75%;
+    margin: 20px 0 100px 40px;
+	}
+
+	.img-perfil {
+   display: none;
+	}
+
+	.texto-titulo-contato {
+    text-align: left;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #333333;
+	}
+
+	.separador-titulo-contato {
+    width: 280px;
+    height: 2px;
+    background-color: #444444;
+	}
+
+	.texto-contato-container {
+    margin: 20px 0 0 40px;
+	}	
+
+	.conteudo-site {
+		padding: 0 0 100px 0;
+	}
+
+}
+
+@media screen and  (max-width: 64em) {
+		
+	.header-container {
+		width: 134%;
+	}
+
+	.footer-container {
+		width: 134%;
+	}
+
+	.div-menu {
+		margin: 80px 0 0 60%;
+	}
+
+	.crp-logo {
+    margin: 60px 0 0 70%;
+	}
+
+	.separador-titulo-perfil {
+		width: 100%;
+	}
+
+	.img-perfil {
+		margin: 20px 0 0 0;
+	}
+
+	.separador-titulo-contato {
+    width: 80%;
+  }
 }
